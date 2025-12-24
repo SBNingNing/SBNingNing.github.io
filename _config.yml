@@ -1,0 +1,10 @@
+title: ""
+name: ""
+author: ""
+description: ""
+
+# Ensure baseurl empty for root deployment
+baseurl: ""
+url: ""
+
+theme: minima
