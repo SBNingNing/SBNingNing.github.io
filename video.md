@@ -1,9 +1,5 @@
----
-layout: page
-title: 我的视频展示
-permalink: /video/
----
-
-## 欢迎来到我的视频专区
-
-这里是我放置视频的地方。
+<video width="100%" controls>
+  <!-- {{ site.baseurl }} 是 Jekyll 的变量，防止路径找不到 -->
+  <source src="{{ site.baseurl }}/assets/videos/my-video.mp4" type="video/mp4">
+  您的浏览器不支持 Video 标签。
+</video>
